@@ -14,5 +14,11 @@ def main():
     b = 15
     print(a+b)
 
+    a = "¿Como "
+    b = "estas?"
+    print(a+b)
+
+
+
 if __name__ == '__main__':
     main()
