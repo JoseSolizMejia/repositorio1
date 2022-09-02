@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
+# Name:        module2
 # Purpose:
 #
 # Author:      josel
@@ -10,12 +10,12 @@
 #-------------------------------------------------------------------------------
 
 def main():
-    mail = input("Ingrese su mail: ")
-    mail11 = mail.replace("@","@ ")
-    if (mail11 != mail):
-        print("el mail es correcto")
-    else:
-        print("el mail no es correcto")
+    lista = ["Messi","Di Maria","Otamendi","De Paul","Dibu Martinez"]
+    contador=0
+    for i in lista:
+        contador=contador+1
+    print(contador)
+
 
 if __name__ == '__main__':
     main()
