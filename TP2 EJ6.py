@@ -10,18 +10,16 @@
 #-------------------------------------------------------------------------------
 
 def main():
-    lista = [2,4,6,8,10,12]
+    lista = [2,4,8,10,12]
     contador=0
     numeros=0
     for x in lista:
         contador = contador + x
 
-
-    for x in lista:
+    for i in lista:
         numeros = numeros + 1
 
-
-    promedio = numeros%contador
+    promedio = contador / numeros
     print(promedio)
 if __name__ == '__main__':
     main()
