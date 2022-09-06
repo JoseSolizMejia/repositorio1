@@ -10,10 +10,10 @@
 #-------------------------------------------------------------------------------
 
 def main():
-    numero = int(input("Ingrese número impar: "))
-
-    if(numero%2!=0):
-        print("El numero es impar")
-
+    while True:
+        numero = int(input("Ingrese número impar: "))
+        if(numero%2!=0):
+            print("El numero es impar")
+            break
 if __name__ == '__main__':
     main()
