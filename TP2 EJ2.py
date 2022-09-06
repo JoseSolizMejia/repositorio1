@@ -13,13 +13,20 @@ def main():
     numero = int(input("Ingrese un número: "))
     numero2 = int(input("Ingrese otro número: "))
     print ("1.SUMAR","2.RESTAR","3.MULTIPLICAR")
+    while True:
+        opciones = ["restar","sumar","multiplicar"]
+        opcion = input("Ingrese una opción: ").lower()
+        if opcion == "sumar":
+            print(numero+numero2)
+            break
+        if opcion == "restar":
+            print(numero-numero2)
+            break
+        if opcion == "multiolicar":
+            print(numero*numero2)
+            break
 
-    opcion = input("Ingrese una opción: ").lower()
-    if opcion == "restar":
-            print(numero - numero2)
-    elif (opcion == "sumar"):
-            print(numero + numero2)
-    else:
-            print(numero * numero2)
+
+
 if __name__ == '__main__':
     main()
