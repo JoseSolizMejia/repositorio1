@@ -22,7 +22,7 @@ def main():
         if opcion == "restar":
             print(numero-numero2)
             break
-        if opcion == "multiolicar":
+        if opcion == "multiplicar":
             print(numero*numero2)
             break
 
